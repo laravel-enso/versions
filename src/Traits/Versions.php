@@ -2,7 +2,6 @@
 
 namespace LaravelEnso\Versions\Traits;
 
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
 use LaravelEnso\Versions\Exceptions\Version;
 use Throwable;
@@ -41,6 +40,7 @@ trait Versions
             $this->checkVersion();
         } catch (Throwable $th) {
             DB::rollBack();
+
             throw $th;
         }
 
