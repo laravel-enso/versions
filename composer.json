@@ -1,11 +1,11 @@
 {
     "name": "laravel-enso/versions",
-    "description": "Prevents update conflicts using the pessimistic lock pattern in Laravel",
+    "description": "Prevents update conflicts using the optimistic lock pattern in Laravel",
     "keywords": [
         "laravel-enso",
         "versions",
         "trait",
-        "pessimistic-lock"
+        "optimistic-lock"
     ],
     "homepage": "https://github.com/laravel-enso/versions",
     "type": "library",
